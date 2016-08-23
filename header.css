@@ -1,1 +1,119 @@
 
+body{
+}
+
+#header{
+	background-image: url('images/books_header_bg.jpg');
+}
+
+.header-content{
+	display: inline-block;
+	position: relative;
+}
+
+#logo{
+	margin-top: 30px;
+	margin-left: 400px;
+}
+
+#logo-text{
+	position: absolute;
+	top: 30px;
+	left: 500px;
+	font-family: 'Roboto';
+	width: 450px;
+}
+
+#mo-dev{
+	font-family: 'Roboto Slab', serif;
+	font-family: 16px;
+	color: #fff;
+	font-size: 1.7em;
+	font-weight: 200;
+}
+
+#mo-dev span{
+	font-weight: 500;
+}
+
+#mo-dev + p{
+	position: absolute;
+	top: 40px;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+}
+
+#search-form{
+	width: 600px;
+	padding-top: 25px;
+	margin-left: 390px;
+	padding-bottom: 30px;
+}
+
+input[type="text"]{
+	box-sizing: border-box;
+	width: 450px;
+	height: 30px;
+
+	margin-right: 0;
+	border: none;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	opacity: .3;
+
+	padding-left: 10px;
+}
+
+input[type="submit"]{
+	box-sizing: border-box;
+	width: 40px;
+	height: 30px;
+	background-color: #fff;
+	background-image: url('images/search.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #adcc35;
+
+	margin-left: 0;
+	padding-top: 0;
+	border: none;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+p{
+	color: rgb(50, 50, 50);
+}
+
+span{
+	font-weight: 600;
+}
+
+nav{
+	width: 700px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	margin-right: 15px;
+	color: rgb(150, 150, 150);
+	font-family: 'Roboto';
+	font-size: 0.9em;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(150, 150, 150);
+}
+
+a:visited{
+	color: rgb(173, 204, 53);
+}
+#cards{
+	background-color: rgb(245, 245, 245);
+}
