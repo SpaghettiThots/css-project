@@ -3,39 +3,50 @@
 <head>
 	<meta charset="utf-8">
 	<title>Books.Modern Developer</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div id="header">
-		<div id="header-group">
-			<div class="header-content" id="logo">
-				<img src="images/books.MD_logo_icon.png">
-			</div>
-			<div class="header-content" id="logo-text">
-				<p id="mo-dev"><span>Books. </span>Modern Developer</p>
-				<p>The Largest Resource of Web and Mobile Development and Programming Books</p>
-			</div>
-			<div  id="search-form">
-				<form action="#" method="POST">
-					<input type="text" name="" placeholder="Search books by any keyword or title..."><input type="submit" name="" value="">
-				</form>
-			</div>
+	<div id="head-bkgd">
+		<div id="logo-and-text">
+			<img src="images/books.MD_logo_icon.png" id="logo">
+			<p id="title">
+				<span class="books">Books. </span>Modern Developer
+			</p>
+			<p id="tagline">The Largest Resource of Web and Mobile Development and Programming Books
+			</p>
 		</div>
+
+		<form action="#" method="POST">
+			<input type="text" name="" placeholder="Search books by any keyword or title..."><button></button>	
+		</form>
 	</div>
 
 	<nav>
 		<ul>
-			<li><a href="#a">UI/UX Design</a></li>
-			<li><a href="#b">Web Programming</a></li>
-			<li><a href="#c">Frontend Development</a></li>
+			<li><a href="#">UI/UX Design</a></li>
+			<li><a href="#">Web Programming</a></li>
+			<li><a href="#">Frontend Development</a></li>
 			<li><a href="#">JavaScript</a></li>
-			<li><a href="#d">Mobile Development</a></li>
-			<li><a href="#e">Backend Development</a></li>
+			<li><a href="#">Mobile Development</a></li>
+			<li><a href="#">Backend Development</a></li>
 		</ul>
 	</nav>
-	
-  <div id="cards"></div>
-  <div id="footer"></div>
+
+  	<div id="cards"></div>
+
+ 	<div id="footer">
+  		<div id="footer-left">
+  			<img src="images/books.MD_footer_logo_icon.png" id="foot-logo">
+  			<p><span class="books">Books. </span>Modern Developer</p>
+  		</div>
+
+  		<p id="footer-right">
+  			&copy;2016 Modern Developer Inc.<br>
+  			<a href="mailto:books@moderndeveloper.com">books@moderndeveloper.com</a>
+  		</p>
+  	</div>
+  </div>
 </body>
 </html>
