@@ -2,17 +2,18 @@
 	background-color: rgb(58, 58, 58);
 	height: 100px;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
-	margin: 0;
-	max-width: 1350px;
+	margin-top: 30px;
+	/*I'm changing the width to a percentage so it doesn't stretch when window is reduced.*/
+	width: 100%;
 }
 
 #footer-left{
 	width: 300px;
 	float: left;
 	margin-left: 150px;
-	margin-top: 40px;
+	margin-top: 30px;
 	position: relative;
 }
 
@@ -33,7 +34,7 @@
 #footer-right{
 	float: right;
 	margin-right: 150px;
-	margin-top: 40px;
+	margin-top: 30px;
 	font-family: 'Roboto', sans-serif;
 }
 
