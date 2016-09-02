@@ -4,8 +4,10 @@
 	<meta charset="utf-8">
 	<title>Books.Modern Developer</title>
 	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="cards.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 	<div id="head-bkgd">
@@ -20,7 +22,7 @@
 
 		<form action="#" method="POST">
 			<!-- I've chosen to use an id for then button here.-->
-			<input type="text" name="" placeholder="Search books by any keyword or title..."><button id="search-button"></button>	
+			<input type="text" name="" placeholder="Search books by any keyword or title..."><button id="search-button"></button>
 		</form>
 	</div>
 
@@ -35,7 +37,96 @@
 		</ul>
 	</nav>
 
-  	<div id="cards"></div>
+  <div id="cards">
+		<div class="card-container">
+      <div class="card">
+        <div class="info">
+          <h1 class="book-title">Eloquent JavaScript:<br>A Modern Introduction to Programming</h1>
+          <div class="book-info">
+            <p class="book-author">by <a href="#">Martin Haverbeke</a></p>
+            <button type="button" class="follow">Follow</button>
+            <p class="book-date">Published on 2015</p>
+            <p class="book-edition">2nd edition</p>
+          </div>
+          <div class="book-details">
+            <div class="book-description">
+              <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browsers-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications</p>
+              <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code</p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="book-additional-info">
+              <div class="book-ratings">
+                <div class="rating">
+                  <div class="rating-title">
+                    <p class="rating-name yellowish">Easy to follow</p>
+                    <div class="rating-marker"><i class="material-icons yellowish">chat_bubble</i><span>29</span></div>
+                    <p class="rating-pct yellowish">80%</p>
+                  </div>
+                  <div class="rating-line-yellow"></div>
+                  <div class="rating-line-grey"></div>
+                </div>
+								<div class="rating">
+                  <div class="rating-title">
+                    <p class="rating-name reddish">Comprehensive</p>
+                    <div class="rating-marker"><i class="material-icons reddish">chat_bubble</i><span>6</span></div>
+                    <p class="rating-pct reddish">75%</p>
+                  </div>
+                  <div class="rating-line-red"></div>
+                  <div class="rating-line-grey"></div>
+                </div>
+								<div class="rating">
+                  <div class="rating-title">
+                    <p class="rating-name blueish">Enough examples</p>
+                    <div class="rating-marker"><i class="material-icons blueish">chat_bubble</i><span>18</span></div>
+                    <p class="rating-pct blueish">95%</p>
+                  </div>
+                  <div class="rating-line-blue"></div>
+                  <div class="rating-line-grey"></div>
+                </div>
+              </div>
+              <div class="book-links">
+                <div class="link">
+                  <a href="#"><span class="link-name">Rate the Book</span><span class="link-arrow">></span></a>
+									<hr>
+									<a href="#"><span class="link-name">Table of Contents</span><span class="link-arrow">></span></a>
+									<hr>
+									<a href="#"><span class="link-name">Search Inside</span><span class="link-arrow">></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="book-img" src="images/eloquent.png">
+      </div>
+      <div class="buttons">
+        <div class="buy-button-div">
+          <button type="button" class="buy-button gumroad">
+						<img src="images/gumroad.jpg">
+						<p>Gumroad</p>
+					</button>
+          <button type="button" class="price-tag">$28.40</button>
+        </div>
+				<div class="buy-button-div">
+          <button type="button" class="buy-button amazon">
+						<img src="images/amazon.png">
+					</button>
+          <button type="button" class="price-tag">$28.40</button>
+        </div>
+				<div class="buy-button-div">
+          <button type="button" class="buy-button gumroad">
+						<img src="images/gumroad.jpg">
+						<p>Gumroad</p>
+					</button>
+          <button type="button" class="price-tag">$28.40</button>
+        </div>
+        <div class="bookmark-button">
+          <div class="bookmark-icon"></div>
+          <p>Bookmark It</p>
+        </div>
+      </div>
+    </div>
+	</div>
 
  	<div id="footer">
   		<div id="footer-left">
