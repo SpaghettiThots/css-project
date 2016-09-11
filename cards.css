@@ -9,6 +9,7 @@
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 90px;
 }
 
 .card {
@@ -212,8 +213,8 @@
   vertical-align: middle;
 }
 
-.buy-button img {
-  height: 30px;
+.gumroad img {
+  height: 40px;
 }
 
 .buy-button p {
@@ -226,14 +227,42 @@
   width: 80px;
   height: 40px;
   border: 0px;
+  margin-right: 20px;
 }
 
 .gumroad {
   background-color: white;
 }
 
-.amazon {
+.amazon img {
   background-color: black;
   width: 160px;
   height: 40px;
+}
+
+.bookmark-button {
+  color: grey;
+}
+
+.bookmark-icon {
+  display: block;
+  text-align: center;
+}
+
+.bookmark-icon i {
+  font-size: 36px;
+}
+
+.bookmark-button p {
+  margin: 0;
+}
+
+.download {
+  background-color: #98C400;
+  color: white;
+  font-size: 16px;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
 }
